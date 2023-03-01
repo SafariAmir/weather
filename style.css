@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: url(./img/moon.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    /* position: absolute;
+    top: 50px;
+    left: 530px; */
+
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+main input{
+    background: #70507d;
+    color: #fff;
+    outline: none;
+    outline-offset: none;
+    border: none;
+    border-bottom: 5px solid #b66b68;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    font-size: 1rem;
+
+    margin-bottom: 30px;
+}
+.title{
+    margin-bottom: 30px;
+}
+.title h3{
+    /* background-color: #b66b68; */
+    color: #fff;
+    font-size: 2.5rem;
+
+    margin-bottom: 10px;
+}
+.title .date{
+    color: #fff;
+    font-size: 1rem;
+}
+main h1{
+    color: #fff;
+    font-size: 5rem;
+    text-shadow: 0 8px 2px #333;
+
+    margin-bottom: 30px;
+}
+.info h4{
+    color: #fff;
+    font-style: italic;
+    font-size: 2rem;
+
+    margin-bottom: 10px;
+}
+.info span{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+
+
+@media (max-width: 900px) {
+    body{
+        max-width: 100%;
+    }
+    main{
+        margin-top: 150px;
+        margin-left: auto;
+        text-align: center;
+    }
+}
